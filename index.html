@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.5">
+    <title> Portfolio Website : Samarth Pachpile </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7032ad07b6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi, I'm <span>Samarth</span><br> Pachpile From <br>India</h1>
+            </div>
+        </div>
+        </div>
+        <!-- -------------about------------ -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>In the face of adversity over the last nine years, I have developed
+                            an attitude of never quiting. While I may not be one the most
+                            exceptional technical figure, I am the kind of person who
+                            pursues goals relentlessly. Besides technicalities I'm have keen 
+                            interest in Music as one of the most energizing attribute of an introvert.
+                            Also I'm a kind of self indulgent person who makes his task more efficient
+                             by affectionating towards it.</p>
+
+                        <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" >
+                            <ul>
+                                <li><span>JAVA developer</span><br>Understanding of core JAVA and its concepts</li>
+                                <li><span>Web Development</span><br>Web App Development using HTML,CSS,JS</li>
+                                <li><span>Software Development</span><br>Building Windows Based Desktop apps</li>
+                            </ul>    
+                        </div>
+                        <div class="tab-contents"id="experience">
+                            <ul>
+                                <li><span>Getting Hands on.........</span></li>
+                                
+                            </ul>    
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2021-25</span><br>Bachelors Of Engineering (BE)(Comp.Sci)</li>
+                                <li><span>2023-24</span><br>Full Stack JAVA development training at CJC Institutes </li>
+                                <li><span>2024</span><br>Technical Training by TNS India Foundation</li>
+                                <li><span>2019</span><br>Senior Secondary  <br>87.00% (CBSE)</li>
+                                <li><span>2021</span><br>Higher Secondary <br>98.17% (Maharashtra Boards)</li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ------------services------------ -->
+         <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-brands fa-java"></i>
+                        <h2>JAVA developer</h2>
+                        <p>Java development is a broad field encompassing<br> the creation,
+                            maintenance, and enhancement of software applications and systems
+                            using the Java programming language.</p>
+                        <a href="#"> Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Designer</h2>
+                        <p> UI/UX design aims to create digital products <br>that are not only 
+                            visually appealing but also functional, easy to use, and provide a 
+                            positive<br>and seamless user experience.</p>
+                        <a href="#"> Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2> Desktop Based Soft. Dev</h2>
+                        <p> Desktop based apps are been developed by me using SWING and AWT framework in JAVA.
+                            Java Swing is a GUI (Graphical User Interface) framework for Java. It enables 
+                            developers to create desktop applications with rich graphical user interfaces.</p>
+                        <a href="#"> Learn More</a>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <!-- --------------Portfolio------------- -->
+          <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h2>Bank Managment System</h2>
+                            <p><br>The main aim of designing and developing <br>this ATM
+                                System primarily based on <br> JAVA. This project is 
+                                developed to provide <br>secure and efficient net banking
+                                facilities to <br>the banking customers over the internet.</p>
+                                <a href="https://github.com/SamarthPachpile/bankmanagmentsystem.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h2>AI Image Generator</h2>
+                            <p>Stay Tuned...... Yet to be accompalished.</p>
+                            
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h2>Music Player App</h2>
+                            <p>Stay Tuned...... Yet to be accompalished.</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/SamarthPachpile" class="btn">See more</a>
+            </div>
+          </div>
+          <!---------------Contact----------------->
+          <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i>samarthyaofficial2713@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>9156193205</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/samarth-pachpile-9a371b241/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/SamarthPachpile"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.instagram.com/safar_with_samar/"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <a href="images/Resume 14th June,2024.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Samarth.,pvt </p>
+            </div>
+          </div>
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right = "0";
+            }
+            
+            function closemenu(){
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzFIJzZvl9OiKgQ0-dJFQGWKzuJvlsCbQ8IUCMNrX-efLAMLO4KoHogbqQVvi1IKsL6/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
